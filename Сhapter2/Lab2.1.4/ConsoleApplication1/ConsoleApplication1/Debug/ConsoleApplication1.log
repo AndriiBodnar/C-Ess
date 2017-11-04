@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+f:\study\3\practic\сhapter2\lab2.1.4\consoleapplication1\consoleapplication1\consoleapplication1.cpp(11): warning C4101: dayIsCorrect: неиспользованная локальная переменная
+  ConsoleApplication1.vcxproj -> F:\Study\3\Practic\Сhapter2\Lab2.1.4\ConsoleApplication1\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> F:\Study\3\Practic\Сhapter2\Lab2.1.4\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Partial PDB)
