@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  3472.cpp
+f:\study\3\practic\chapter3_objectives\347(2)\347(2)\3472.cpp(20): warning C4551: в вызове функции отсутствует список аргументов
+f:\study\3\practic\chapter3_objectives\347(2)\347(2)\3472.cpp(26): error C4716: monthLength: должна возвращать значение
