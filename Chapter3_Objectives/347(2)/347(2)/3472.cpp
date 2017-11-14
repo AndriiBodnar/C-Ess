@@ -6,25 +6,30 @@
 using namespace std;
 bool isLeap(int year)
 {
-	int result;
-	result = year % 4;
-		if (result = 0)
-		{
-			return true;
-		}
-		else { return false; }
 
-}
-int monthLength(int year, int month) 
-{
-	int monthlenghleap[] = { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31, };
-	int month[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31, };
-	if (isLeap) 
-	{
-
-		
+	if (year % 4 != 0) {
+		return false;
+	}
+	else if (year % 100 != 0) {
+		return true;
+	}
+	else if (year % 400 != 0) {
+		return false;
+	}
+	else {
+		return true;
 	}
 
+}
+int monthLength(int year, int month)
+{
+	int monthlengh[] = { 29, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31, };
+			if(isLeap(year) && month==2)
+			return monthlengh[0];
+			else
+			{
+				return monthlengh[month];
+			}
 }
 int main(void) {
 	for (int yr = 2000; yr < 2002; yr++) {
