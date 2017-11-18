@@ -1,0 +1,4 @@
+﻿  31081.cpp
+f:\study\3\practic\chapter3_objectives\3108(1)\3108(1)\31081.cpp(10): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  3108(1).vcxproj -> F:\Study\3\Practic\Chapter3_Objectives\3108(1)\Debug\3108(1).exe
+  3108(1).vcxproj -> F:\Study\3\Practic\Chapter3_Objectives\3108(1)\Debug\3108(1).pdb (Partial PDB)
